@@ -1,0 +1,71 @@
+body {
+  background-color: #e4e4e4;
+}
+
+h1 {
+  text-align: center;
+}
+
+#notes,
+.preview-note {
+  margin: 0 auto;
+  width: 75%;
+}
+
+.note, 
+.preview-note {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.note {
+  background-color: #fdffb7;
+  border: 8px solid #d4daa7; 
+}
+
+.preview-note {
+  background-color: #7ffa89;
+  border: 8px solid #2cf436;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  width: 50%;
+}
+
+input,
+button {
+  padding: 10px;
+}
+
+button {
+  background-color: #ff9494;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #fe2222;
+}
+
+button:focus {
+  outline: none;
+}
+
+#remove {
+  background: red;
+}
+
+#lucky {
+  background: lightgreen;
+}
